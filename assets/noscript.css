@@ -1,0 +1,37 @@
+body:before {
+	background-attachment: scroll;
+	content: '';
+	display: block;
+	height: var(--background-height);
+	left: 0;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	transform: scale(1);
+	width: 100vw;
+	z-index: 0;
+	background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20path%20%7B%20fill%3A%20none%3B%20stroke-width%3A%201.01px%3B%20stroke%3A%20rgba(54,43,43,0.078)%3B%20vector-effect%3A%20non-scaling-stroke%3B%20%7D%20%3C%2Fstyle%3E%20%3Cpath%20d%3D%22M0%2C448c128%2C0%2C128-128%2C256-128s128%2C128%2C256%2C128%22%20%2F%3E%20%3Cpath%20d%3D%22M0%2C192c128%2C0%2C128-128%2C256-128s128%2C128%2C256%2C128%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(to top, rgba(0,1,5,0.941), rgba(0,1,5,0.941)), url('images/bg-0e5b787a.jpg');
+	background-size: 6px, auto, cover;
+	background-position: center, 0% 0%, center;
+	background-repeat: repeat, repeat, no-repeat;
+	background-color: #000000;
+}
+
+body {
+	overflow: auto !important;
+}
+
+body:after {
+	display: none !important;
+}
+
+#main > .inner {
+	opacity: 1.0 !important;
+}
+
+#main {
+	opacity: 1.0 !important;
+	transform: none !important;
+	transition: none !important;
+	filter: none !important;
+}
